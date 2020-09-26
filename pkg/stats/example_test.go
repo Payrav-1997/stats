@@ -26,8 +26,8 @@ func ExampleAvg() {
 		Status:   types.StatusFail,
 	  },
 	}
-	result := types.Category("cafe")
-    fmt.Println(Avg(payments,result))
+	
+    fmt.Println(Avg(payments))
 	//Output: 5200
 }
   

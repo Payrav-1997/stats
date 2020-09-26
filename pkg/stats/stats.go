@@ -5,7 +5,7 @@ import (
 )
 
 //Avg рассчитает среднюю сумму
-func Avg(payments []types.Payment, category types.Category) types.Money {
+func Avg(payments []types.Payment) types.Money {
 
 	var sum = types.Money(0)
 	var i = 0
