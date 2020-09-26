@@ -11,7 +11,7 @@ func ExampleAvg() {
 		ID:       1,
 		Amount:   53_00,
 		Category: "Cafe",
-		Status:   types.StatusOk,
+		Status:   types.StatusOk,     
 	  },
 	  {
 		ID:       2,
